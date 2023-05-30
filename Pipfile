@@ -1,5 +1,5 @@
 [[source]]
-url = "https://pypi.org/simple"
+url = "https://pypi.org/scouting"
 verify_ssl = true
 name = "pypi"
 
