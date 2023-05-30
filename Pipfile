@@ -1,0 +1,22 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+streamlit = "*"
+pandas = "*"
+mplsoccer = "*"
+matplotlib = "*"
+statsbombpy = "*"
+openpyxl = "*"
+plotly-express = "*"
+streamlit-authenticator = "==0.1.5"
+pymongo = "*"
+altair = "*"
+vega-datasets = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.10"
