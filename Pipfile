@@ -13,7 +13,6 @@ openpyxl = "*"
 plotly-express = "*"
 streamlit-authenticator = "==0.1.5"
 pymongo = "*"
-altair = "*"
 vega-datasets = "*"
 
 [dev-packages]
