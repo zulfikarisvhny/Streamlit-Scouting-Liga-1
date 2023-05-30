@@ -1,7 +1,6 @@
 import streamlit as st
 import pandas as pd
 import mplsoccer 
-from PIL import Image
 import matplotlib.pyplot as plt
 from mplsoccer import PyPizza
 from utils.st import (
