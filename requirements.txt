@@ -2,4 +2,3 @@ streamlit
 pandas
 mplsoccer
 matplotlib
-PIL
