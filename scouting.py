@@ -564,26 +564,3 @@ st.markdown(
 #scout = dfpercentile(all_value)[dfpercentile(all_value)['Player'] == player]
 #st.dataframe(scout)
 st.pyplot(bikinpizza(dfpercentile(all_value)))
-
-
-# Define the CSS styles
-container_style = """
-    padding: 20px;
-    background-color: red;
-    border-radius: 10px;
-"""
-
-# Use the st.markdown() function with HTML and CSS
-st.markdown(
-    f"""
-    <div style="{container_style}">
-        <h3>This is a text inside a container</h3>
-        <p>This is some additional content inside the container.</p>
-    </div>
-    """,
-    unsafe_allow_html=True
-)
-
-# Add other elements outside the container
-st.write("This text is outside the container.")
-
