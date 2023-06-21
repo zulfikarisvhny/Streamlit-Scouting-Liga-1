@@ -61,7 +61,7 @@ Filter yang dapat digunakan untuk menentukan usia, menit bermain, dan asal pemai
 """.strip()
 
 # READ DATA
-excel_file = 'Wyscout Liga 1.xlsx'
+excel_file = 'Wyscout Liga 1-FIX.xlsx'
 sheet_name = 'Search results (436)'
 
 df = pd.read_excel(excel_file, 
